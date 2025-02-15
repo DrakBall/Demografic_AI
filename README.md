@@ -59,6 +59,8 @@ Posibles soluciones para evitar los problemas una vez previstos podrian ser las 
 
 Ajunteu un diagrama visual del vostre sistema.
 
+!(imagen.webp)
+
 ## 🌍 Impacte del projecte
 
 Concienciar a la poblacion de posibles problemas poblacionales que haya a futuro
