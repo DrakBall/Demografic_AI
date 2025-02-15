@@ -12,5 +12,5 @@ pronostico_mort=ia.generate_grafic(df_mort, "Total", "api-key")
 ct.csv_save(pronostico_nat, "pronostico_nat.csv")
 ct.csv_save(pronostico_mort, "pronostico_mort.csv")
 
-hg.hacer_grafico(df_nat, pronostico_nat, "Total")
-hg.hacer_grafico(df_mort, pronostico_mort, "Total")
+hg.hacer_grafico("natalitat", df_nat, pronostico_nat, "Total")
+hg.hacer_grafico("mortaldat", df_mort, pronostico_mort, "Total")
