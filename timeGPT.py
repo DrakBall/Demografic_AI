@@ -1,7 +1,6 @@
 from nixtla import NixtlaClient
 
-def generate_grafic(df, column, api):
-
+def generate_grafic(data_frame, column, api):
 
     nixtla_client = NixtlaClient(api_key=api)
 
@@ -12,7 +11,7 @@ def generate_grafic(df, column, api):
 
     # Forecast
     pronostico = nixtla_client.forecast(
-        df=df,
+        df=data_frame, # Original DataFrame
         h=10,  # Forecast horizon
         freq='YE',  # Frequency of the data
         time_col='Año',  # Timestamp column
